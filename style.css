@@ -1,0 +1,532 @@
+header{
+    position: relative;
+    background-image: url(./Hero.svg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    padding-top: 60px;
+}
+
+    
+.blue{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.brand-motor{
+    font-size: 50px;
+    
+}
+
+nav {
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 10px; 
+  }
+  
+  .logo-container {
+    margin-right: 10px; 
+  }
+  
+  img {
+    height: 40px; 
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  li {
+    padding: 15px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: grey;
+  }
+  
+  a:hover {
+    color: #F9995D;
+  }
+  .About{
+    background-color: #3559C7;
+    width: 300px;
+    height: 200px;
+    min-width: 300px;
+    margin-left: -350px;
+}
+  body{
+    margin: 0 auto;
+    padding-bottom: 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+.bold{
+    font-weight: bolder;
+    font-size: large;
+}
+
+.us{
+    color: aliceblue;
+    justify-content: center;
+    justify-items: center;
+    font-size: small;
+    position: relative;
+    padding: 20px;
+}
+.blue-box{
+    width: 100%;
+    background-color: #3559C7;
+    text-align: center;
+    
+}
+.button{
+    background-color: #292E3D;
+    color: aliceblue;
+    
+   
+}
+.back{
+    width: 50%;
+}
+.bold{
+    width: 300px;
+}
+.box{
+    width: 200px;
+    height: 170px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    border-color: grey;
+    min-width: 200px;
+    
+}
+.one{
+    padding: 10px;
+}
+.Best{
+    text-align: left;
+    font-weight: bold;
+}
+.next{
+    width: 50%;
+}
+.company{
+    font-size:smaller;
+    color: #525B7A;
+    
+}
+.content{
+    grid-area:"content content content";
+    max-width: 1000px;
+    width: 100%;
+}
+.color{
+    color: grey;
+    font-size: small;
+}
+.contactus{
+    width: 100px;
+    height: 30px;
+    background-color: #3559C7;
+    color: white;
+    font-size: x-small;
+    border: 0;
+}
+.flex{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.flex-area{
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    padding: 0 40px;
+    grid-template-areas: "content content content";
+}
+.Reputation{
+    text-align: center;
+    margin-top: 40px;
+}
+.unsplash{
+    width: 70%;
+    height: 40%;
+    min-width: 600px;
+    
+}
+.two-row-grid{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: -500%;
+    
+}
+.grey-area{
+    background-color: #E0E3EB;
+    height: 200px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.white{
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    margin-top: 40px;
+    border-radius: 5px;
+    
+}
+.item{
+    text-align: center;
+    font-size: small;
+    font-weight: 700;
+    color: #2947A9;
+}
+.items{
+    text-align: center;
+    font-size: small;
+    font-weight: 700;
+    color: white;
+}
+
+.blues{
+    width: 200px;
+    height: 100px;
+    background-color:#2947A9;
+    margin-top: 40px;
+    border-radius: 5px;
+    
+}
+.services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+    
+}
+.servicess{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+    
+}
+.line{
+    width: 40px;
+    height: 2px;
+    background-color:gray;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+}
+
+.Happy{
+   
+    border-top: none;
+    border-left: none;
+    width: 150px;
+    height: 100px;
+    background-color: white;
+    margin-top: -80px;
+    box-shadow:  0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: left;
+    padding-left: 20px;
+    
+}
+.years{
+    color: #3559C7;
+    font-size: xx-large;
+}
+.image-one{
+    margin-left: 275px;
+    margin-top: -60px;
+   
+}
+.image-one1{
+    margin-left: 250px;
+    
+}
+.image-one2{
+margin-left: -15px;
+}
+.image-one3{
+    margin-left: 100px;
+    margin-top: -50px;
+}
+.client{
+    margin-left: 130px;
+}
+.award{
+    margin-left: 105px;
+}
+.year{
+    margin-left: -50px;
+}
+.orange{
+    width: 4px;
+    height: 20px;
+    background-color: #F9995D;
+    margin-right: 20px;
+    
+}
+.ttt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -30px;
+    margin-top: -20px;
+}
+.large{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.image1{
+    height: 150px;
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    background-image: url(./all\ asset/Ads.svg);
+    max-width: 100%;
+}
+.free{
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+}
+.just{
+    color: white;
+    font-size: small;
+}
+.get{
+    width: 180px;
+    height: 30px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid;
+    font-size: x-small;
+}
+.black{
+    width: 3px;
+    height: 20px;
+    background-color: #2947A9;
+    margin-right: 10px;
+    
+}
+.pro{
+    display: flex;
+    margin-left: 13px;
+}
+.ject{
+    font-size: large;
+    font-weight: bolder;
+    margin-left: 25px;
+}
+.all{
+    font-size: small;
+    font-weight: bolder;
+    color: #2947A9;
+}
+.other{
+    margin-left: 25px;
+    font-size: small;
+    font-weight: bold;
+    color: #C2C7D6;
+}
+.other:hover {
+    background-color: #2947A9;
+    border-radius: 20px;
+}
+
+.postcard{
+   height: 200px;
+   gap: 500px;
+}
+.okay{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+.project{
+    display: flex;
+    gap: 200px;
+    margin-top: 50px;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.botton{
+    background-color: #292E3D;
+    color: aliceblue;
+    
+   
+}
+.bacck{
+    width: 40%;
+
+}
+.nexxt{
+    width: 40%;
+}
+.circle{
+    width: 10px;
+    height: 10px;
+    background-color: #C2C7D6;
+    border-radius: 20px;
+   
+}
+.circle:hover {
+    background-color: #2947A9;
+}
+
+
+.rrr{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.you{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.input{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+.Message{
+    width: 425px;
+    height: 100PX;
+    margin-top: 20px;
+    text-align: left;
+    border: 1;
+    border-color: #C2C7D6;
+    border-radius: 5px;
+    font-size: small;
+}
+.hard{
+    margin-top: 60px;
+    background-color: #E0E3EB;
+}
+
+
+.email{
+    font-size: small;
+    width: 203px;
+    height: 23px;
+    border: 1;
+    border-color: #C2C7D6;
+    border-radius: 5px;
+   
+}
+
+  
+.asterisk {
+    font-size: 3ch;
+    color: red;
+    margin-right: -0px;
+  }
+  
+   ::placeholder {
+    color: #777;
+  }
+
+  .submit{
+    margin-top: 30px;
+    width: 150px;
+    height: 30px;
+    background-color: #3559C7;
+    border: 0;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: small;
+  }
+  .What{
+   font-size: large;
+   font-weight: bolder;
+  }
+  .we{
+    width: 350px;
+    font-size: small;
+    text-align: center;
+    color: grey;
+  }
+  span{
+    color: #3559C7;
+    font-weight: bold;
+    margin-top: 90px;
+    
+  }
+  .address{
+    text-align: start;
+    margin-left: 50px;
+  }
+  .death{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 50px;
+    gap: 100px;
+    
+  }
+  .vector{
+    margin-top: 25px;
+  }
+  .SUB{
+    width: 250px;
+    height: 27px;
+    font-size: small;
+    border-color: #C2C7D6;
+    
+  }
+  .sub{
+    width: 100px;
+    height: 35px;
+    font-weight: bold;
+    color: aliceblue;
+    background-color: #F9995D;
+    border: 0;
+    border-radius: 5px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
